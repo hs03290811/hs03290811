@@ -4,27 +4,27 @@
 <text x="28" y="40" font-size="13" font-weight="500" fill="#a1a1a6" text-anchor="start" letter-spacing="0">Languages</text>
 <clipPath id="bar"><rect x="28" y="54" width="351" height="8" rx="4"/></clipPath>
 <rect x="28" y="54" width="351" height="8" rx="4" fill="rgba(255,255,255,0.16)"/>
-<rect x="28.0" y="54" width="160.3" height="8" fill="#f5f5f7" fill-opacity="1.00" clip-path="url(#bar)"/>
-<rect x="188.3" y="54" width="100.2" height="8" fill="#f5f5f7" fill-opacity="0.88" clip-path="url(#bar)"/>
-<rect x="288.6" y="54" width="50.1" height="8" fill="#f5f5f7" fill-opacity="0.75" clip-path="url(#bar)"/>
-<rect x="338.7" y="54" width="16.5" height="8" fill="#f5f5f7" fill-opacity="0.62" clip-path="url(#bar)"/>
-<rect x="355.2" y="54" width="12.8" height="8" fill="#f5f5f7" fill-opacity="0.50" clip-path="url(#bar)"/>
-<rect x="368.0" y="54" width="11.0" height="8" fill="#f5f5f7" fill-opacity="0.38" clip-path="url(#bar)"/>
+<rect x="28.0" y="54" width="184.2" height="8" fill="#f5f5f7" fill-opacity="1.00" clip-path="url(#bar)"/>
+<rect x="212.2" y="54" width="87.7" height="8" fill="#f5f5f7" fill-opacity="0.88" clip-path="url(#bar)"/>
+<rect x="299.9" y="54" width="43.9" height="8" fill="#f5f5f7" fill-opacity="0.75" clip-path="url(#bar)"/>
+<rect x="343.7" y="54" width="14.4" height="8" fill="#f5f5f7" fill-opacity="0.62" clip-path="url(#bar)"/>
+<rect x="358.2" y="54" width="11.2" height="8" fill="#f5f5f7" fill-opacity="0.50" clip-path="url(#bar)"/>
+<rect x="369.4" y="54" width="9.6" height="8" fill="#f5f5f7" fill-opacity="0.38" clip-path="url(#bar)"/>
 <circle cx="32" cy="84" r="4" fill="#f5f5f7" fill-opacity="1.00"/>
 <text x="44" y="88" font-size="13" font-weight="500" fill="#f5f5f7" text-anchor="start" letter-spacing="0">Python</text>
-<text x="96.8" y="88" font-size="12" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">46%</text>
+<text x="96.8" y="88" font-size="12" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">52%</text>
 <circle cx="222" cy="84" r="4" fill="#f5f5f7" fill-opacity="0.88"/>
 <text x="234" y="88" font-size="13" font-weight="500" fill="#f5f5f7" text-anchor="start" letter-spacing="0">C</text>
-<text x="247.8" y="88" font-size="12" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">29%</text>
+<text x="247.8" y="88" font-size="12" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">25%</text>
 <circle cx="32" cy="108" r="4" fill="#f5f5f7" fill-opacity="0.75"/>
 <text x="44" y="112" font-size="13" font-weight="500" fill="#f5f5f7" text-anchor="start" letter-spacing="0">Java</text>
-<text x="81.2" y="112" font-size="12" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">14%</text>
+<text x="81.2" y="112" font-size="12" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">12%</text>
 <circle cx="222" cy="108" r="4" fill="#f5f5f7" fill-opacity="0.62"/>
 <text x="234" y="112" font-size="13" font-weight="500" fill="#f5f5f7" text-anchor="start" letter-spacing="0">JavaScript</text>
-<text x="318.0" y="112" font-size="12" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">5%</text>
+<text x="318.0" y="112" font-size="12" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">4%</text>
 <circle cx="32" cy="132" r="4" fill="#f5f5f7" fill-opacity="0.50"/>
 <text x="44" y="136" font-size="13" font-weight="500" fill="#f5f5f7" text-anchor="start" letter-spacing="0">C#</text>
-<text x="65.6" y="136" font-size="12" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">4%</text>
+<text x="65.6" y="136" font-size="12" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">3%</text>
 <circle cx="222" cy="132" r="4" fill="#f5f5f7" fill-opacity="0.38"/>
 <text x="234" y="136" font-size="13" font-weight="500" fill="#f5f5f7" text-anchor="start" letter-spacing="0">TypeScript</text>
 <text x="318.0" y="136" font-size="12" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">3%</text>
