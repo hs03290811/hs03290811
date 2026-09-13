@@ -4,28 +4,28 @@
 <text x="28" y="40" font-size="13" font-weight="500" fill="#6e6e73" text-anchor="start" letter-spacing="0">Languages</text>
 <clipPath id="bar"><rect x="28" y="54" width="351" height="8" rx="4"/></clipPath>
 <rect x="28" y="54" width="351" height="8" rx="4" fill="rgba(0,0,0,0.13)"/>
-<rect x="28.0" y="54" width="184.2" height="8" fill="#1d1d1f" fill-opacity="1.00" clip-path="url(#bar)"/>
-<rect x="212.2" y="54" width="87.7" height="8" fill="#1d1d1f" fill-opacity="0.88" clip-path="url(#bar)"/>
-<rect x="299.9" y="54" width="43.9" height="8" fill="#1d1d1f" fill-opacity="0.75" clip-path="url(#bar)"/>
-<rect x="343.7" y="54" width="14.4" height="8" fill="#1d1d1f" fill-opacity="0.62" clip-path="url(#bar)"/>
-<rect x="358.2" y="54" width="11.2" height="8" fill="#1d1d1f" fill-opacity="0.50" clip-path="url(#bar)"/>
-<rect x="369.4" y="54" width="9.6" height="8" fill="#1d1d1f" fill-opacity="0.38" clip-path="url(#bar)"/>
+<rect x="28.0" y="54" width="192.7" height="8" fill="#1d1d1f" fill-opacity="1.00" clip-path="url(#bar)"/>
+<rect x="220.7" y="54" width="77.9" height="8" fill="#1d1d1f" fill-opacity="0.88" clip-path="url(#bar)"/>
+<rect x="298.7" y="54" width="39.0" height="8" fill="#1d1d1f" fill-opacity="0.75" clip-path="url(#bar)"/>
+<rect x="337.7" y="54" width="19.9" height="8" fill="#1d1d1f" fill-opacity="0.62" clip-path="url(#bar)"/>
+<rect x="357.6" y="54" width="12.8" height="8" fill="#1d1d1f" fill-opacity="0.50" clip-path="url(#bar)"/>
+<rect x="370.4" y="54" width="8.5" height="8" fill="#1d1d1f" fill-opacity="0.38" clip-path="url(#bar)"/>
 <circle cx="32" cy="84" r="4" fill="#1d1d1f" fill-opacity="1.00"/>
 <text x="44" y="88" font-size="13" font-weight="500" fill="#1d1d1f" text-anchor="start" letter-spacing="0">Python</text>
-<text x="96.8" y="88" font-size="12" font-weight="400" fill="#6e6e73" text-anchor="start" letter-spacing="0">52%</text>
+<text x="96.8" y="88" font-size="12" font-weight="400" fill="#6e6e73" text-anchor="start" letter-spacing="0">55%</text>
 <circle cx="222" cy="84" r="4" fill="#1d1d1f" fill-opacity="0.88"/>
 <text x="234" y="88" font-size="13" font-weight="500" fill="#1d1d1f" text-anchor="start" letter-spacing="0">C</text>
-<text x="247.8" y="88" font-size="12" font-weight="400" fill="#6e6e73" text-anchor="start" letter-spacing="0">25%</text>
+<text x="247.8" y="88" font-size="12" font-weight="400" fill="#6e6e73" text-anchor="start" letter-spacing="0">22%</text>
 <circle cx="32" cy="108" r="4" fill="#1d1d1f" fill-opacity="0.75"/>
 <text x="44" y="112" font-size="13" font-weight="500" fill="#1d1d1f" text-anchor="start" letter-spacing="0">Java</text>
-<text x="81.2" y="112" font-size="12" font-weight="400" fill="#6e6e73" text-anchor="start" letter-spacing="0">12%</text>
+<text x="81.2" y="112" font-size="12" font-weight="400" fill="#6e6e73" text-anchor="start" letter-spacing="0">11%</text>
 <circle cx="222" cy="108" r="4" fill="#1d1d1f" fill-opacity="0.62"/>
-<text x="234" y="112" font-size="13" font-weight="500" fill="#1d1d1f" text-anchor="start" letter-spacing="0">JavaScript</text>
-<text x="318.0" y="112" font-size="12" font-weight="400" fill="#6e6e73" text-anchor="start" letter-spacing="0">4%</text>
+<text x="234" y="112" font-size="13" font-weight="500" fill="#1d1d1f" text-anchor="start" letter-spacing="0">C#</text>
+<text x="255.6" y="112" font-size="12" font-weight="400" fill="#6e6e73" text-anchor="start" letter-spacing="0">6%</text>
 <circle cx="32" cy="132" r="4" fill="#1d1d1f" fill-opacity="0.50"/>
-<text x="44" y="136" font-size="13" font-weight="500" fill="#1d1d1f" text-anchor="start" letter-spacing="0">C#</text>
-<text x="65.6" y="136" font-size="12" font-weight="400" fill="#6e6e73" text-anchor="start" letter-spacing="0">3%</text>
+<text x="44" y="136" font-size="13" font-weight="500" fill="#1d1d1f" text-anchor="start" letter-spacing="0">JavaScript</text>
+<text x="128.0" y="136" font-size="12" font-weight="400" fill="#6e6e73" text-anchor="start" letter-spacing="0">4%</text>
 <circle cx="222" cy="132" r="4" fill="#1d1d1f" fill-opacity="0.38"/>
 <text x="234" y="136" font-size="13" font-weight="500" fill="#1d1d1f" text-anchor="start" letter-spacing="0">TypeScript</text>
-<text x="318.0" y="136" font-size="12" font-weight="400" fill="#6e6e73" text-anchor="start" letter-spacing="0">3%</text>
+<text x="318.0" y="136" font-size="12" font-weight="400" fill="#6e6e73" text-anchor="start" letter-spacing="0">2%</text>
 </svg>

@@ -70,7 +70,7 @@ CV_AR은 공개 저장소(13131323)와 비공개 저장소(backtrap)가 같은 �
 3. Projects: "만든 것", "함께 만든 것" 두 묶음. 카드 SVG 2열(홀수 개면 마지막은 전체 폭). 각 카드에 이름, 한 줄 설명, 언어 또는 기여량. 카드마다 `<a>`로 저장소 링크.
 4. Stack: 텍스트 칩 한 줄 SVG.
 5. Playing: 애플 뮤직 목록 스타일 SVG.
-6. Stats: 직접 만든 카드 2개 (GitHub 통계, 언어 비율). github-readme-stats 공개 서버가 자주 멈춰(503) 쓰지 않는다. `scripts/build_stats.py`가 커밋 검색 API로 전체 기간·공개 저장소만 세고, GitHub Action이 매주 갱신한다. 언어 비율은 저장소별로 정규화해 합친다.
+6. Stats: 직접 만든 카드 2개 (GitHub 통계, 언어 비율). github-readme-stats 공개 서버가 자주 멈춰(503) 쓰지 않는다. `scripts/build_stats.py`가 커밋 검색 API로 전체 기간을 세며 비공개 저장소도 포함한다. Action은 secret `STATS_TOKEN`(repo 권한 PAT)이 있을 때만 통계를 갱신한다. 언어 비율은 저장소별로 정규화해 합친다.
 7. Contact: 이메일 두 개.
 8. 마지막 줄: "가장 친한 친구였던 혜리를 기억하며." (작은 글씨)
 

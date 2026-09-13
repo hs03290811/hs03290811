@@ -7,8 +7,8 @@ GitHub Action(.github/workflows/stats.yml)이 매주 실행해 자동으로 갱�
 
 전체 기간의 커밋을 세기 위해 커밋 검색 API(author:LOGIN)를 쓴다. GraphQL의
 contributionsCollection / repositoriesContributedTo는 최근 1년만 세기 때문이다.
-비공개 저장소는 토큰에 따라 보이기도 안 보이기도 하므로 항상 공개 저장소만 센다.
-그래야 로컬에서 돌리든 Action에서 돌리든 같은 숫자가 나온다.
+비공개 저장소도 센다. 토큰이 볼 수 있는 범위만 집계되므로, Action에서는 repo 권한이
+있는 PAT(secret STATS_TOKEN)를 써야 공개 전용 숫자로 덮어쓰지 않는다.
 """
 import json
 import os
@@ -60,14 +60,12 @@ def search_all(path, q):
 
 def fetch():
     commits = search_all("/search/commits", f"author:{LOGIN}")
-    # 저장소별 커밋 수 (공개만)
+    # 저장소별 커밋 수 (토큰이 볼 수 있는 비공개 저장소 포함)
     per_repo = {}
     for c in commits:
-        r = c["repository"]
-        if r["private"]:
-            continue
-        per_repo[r["full_name"]] = per_repo.get(r["full_name"], 0) + 1
-    prs = get("/search/issues", q=f"author:{LOGIN} is:pr is:public", per_page=1)["total_count"]
+        name = c["repository"]["full_name"]
+        per_repo[name] = per_repo.get(name, 0) + 1
+    prs = get("/search/issues", q=f"author:{LOGIN} is:pr", per_page=1)["total_count"]
     own = [r for r in get(f"/users/{LOGIN}/repos", per_page=100, type="owner") if not r["fork"]]
     stars = sum(r["stargazers_count"] for r in own)
     repos = set(per_repo) | {r["full_name"] for r in own}

@@ -20,11 +20,15 @@ jobs:
         with:
           python-version: "3.12"
       - name: Build SVGs
+        run: python3 scripts/build_svgs.py
+      # 비공개 저장소까지 세려면 repo 권한이 있는 PAT를 secret STATS_TOKEN으로 넣는다.
+      # 없으면 통계 카드는 건드리지 않는다 (기본 토큰은 남의 비공개 저장소를 못 본다).
+      - name: Build stats
+        if: env.STATS_TOKEN != ''
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python3 scripts/build_svgs.py
-          python3 scripts/build_stats.py
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: python3 scripts/build_stats.py
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
