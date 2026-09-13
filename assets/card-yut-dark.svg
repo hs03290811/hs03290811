@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="407" height="160" viewBox="0 0 407 160">
+<style>text{font-family:-apple-system, "SF Pro Display", "SF Pro Text", "Helvetica Neue", "Apple SD Gothic Neo", "Segoe UI", "Malgun Gothic", Arial, sans-serif;}</style>
+<rect x="0.5" y="0.5" width="406" height="159" rx="18" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.16)"/>
+<text x="28" y="46" font-size="20" font-weight="600" fill="#f5f5f7" text-anchor="start" letter-spacing="-0.3">윷놀이</text>
+<text x="28" y="76" font-size="14" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">4·5·6각형 판을 지원하는 윷놀이 게임.</text>
+<text x="28" y="98" font-size="14" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">소프트웨어공학 팀 프로젝트</text>
+<text x="28" y="132" font-size="12" font-weight="500" fill="#a1a1a6" text-anchor="start" letter-spacing="0">32 commits · 10 PRs · Java</text>
+</svg>

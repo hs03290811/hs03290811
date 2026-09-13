@@ -20,7 +20,7 @@
 | 인프라 | PostgreSQL, PostGIS, Redis, Docker, AWS, Linux |
 | 도구 | Git, Notion |
 | 기기 | MacBook Pro 14 |
-| 음악 | Oasis, Green Day, Nell, Radiohead, SHINee, G-Dragon |
+| 음악 | Nell, Radiohead, Nirvana, Oasis, Green Day, SHINee, G-Dragon (덜 대중적인 순) |
 | 연락처 | song2won@daum.net, peachee@cau.ac.kr |
 
 ### 프로젝트 목록
@@ -53,6 +53,7 @@ hs03290811/
     ├── header-{light,dark}.svg
     ├── card-*-{light,dark}.svg  # 프로젝트 카드 하나당 SVG 하나 (클릭 가능하게 <a>로 감쌈)
     ├── stack-{light,dark}.svg
+    ├── stats-{light,dark}.svg, langs-{light,dark}.svg  # build_stats.py가 생성
     └── music-{light,dark}.svg
 ```
 
@@ -69,8 +70,9 @@ CV_AR은 공개 저장소(13131323)와 비공개 저장소(backtrap)가 같은 �
 3. Projects: "만든 것" SVG, "함께 만든 것" SVG. 카드 2열. 각 카드에 이름, 한 줄 설명, 언어 또는 기여량. SVG 전체를 한 링크로 걸 수 없으므로 카드 아래에 마크다운 링크 줄을 둔다.
 4. Stack: 텍스트 칩 한 줄 SVG.
 5. Playing: 애플 뮤직 목록 스타일 SVG.
-6. Stats: github-readme-stats 카드 2개 (stats, top-langs). 배경 투명, 글자 흑/백, `<picture>`로 테마별 색 지정.
+6. Stats: 직접 만든 카드 2개 (GitHub 통계, 언어 비율). github-readme-stats 공개 서버가 자주 멈춰(503) 쓰지 않는다. `scripts/build_stats.py`가 커밋 검색 API로 전체 기간·공개 저장소만 세고, GitHub Action이 매주 갱신한다. 언어 비율은 저장소별로 정규화해 합친다.
 7. Contact: 이메일 두 개.
+8. 마지막 줄: "가장 친한 친구였던 혜리를 기억하며." (작은 글씨)
 
 ## 타이포그래피
 
@@ -86,5 +88,5 @@ Mac에서는 SF Pro와 Apple SD Gothic Neo로 렌더링된다.
 
 ## 범위 밖
 
-- 참여 저장소 자동 갱신 Action. 프로젝트가 추가되면 SVG를 직접 수정한다.
+- 참여 저장소 카드 자동 갱신. 프로젝트가 추가되면 `scripts/build_svgs.py`의 DATA를 직접 수정한다. (통계 카드만 Action으로 갱신)
 - 개별 저장소 README 정리.

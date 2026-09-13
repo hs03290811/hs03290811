@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="407" height="160" viewBox="0 0 407 160">
+<style>text{font-family:-apple-system, "SF Pro Display", "SF Pro Text", "Helvetica Neue", "Apple SD Gothic Neo", "Segoe UI", "Malgun Gothic", Arial, sans-serif;}</style>
+<rect x="0.5" y="0.5" width="406" height="159" rx="18" fill="rgba(0,0,0,0.035)" stroke="rgba(0,0,0,0.13)"/>
+<text x="28" y="40" font-size="13" font-weight="500" fill="#6e6e73" text-anchor="start" letter-spacing="0">GitHub</text>
+<text x="28" y="88" font-size="26" font-weight="600" fill="#1d1d1f" text-anchor="start" letter-spacing="-0.5">198</text>
+<text x="82.5" y="88" font-size="12" font-weight="500" fill="#6e6e73" text-anchor="start" letter-spacing="0">commits</text>
+<text x="218" y="88" font-size="26" font-weight="600" fill="#1d1d1f" text-anchor="start" letter-spacing="-0.5">31</text>
+<text x="257.0" y="88" font-size="12" font-weight="500" fill="#6e6e73" text-anchor="start" letter-spacing="0">pull requests</text>
+<text x="28" y="136" font-size="26" font-weight="600" fill="#1d1d1f" text-anchor="start" letter-spacing="-0.5">4</text>
+<text x="51.5" y="136" font-size="12" font-weight="500" fill="#6e6e73" text-anchor="start" letter-spacing="0">repos contributed to</text>
+<text x="218" y="136" font-size="26" font-weight="600" fill="#1d1d1f" text-anchor="start" letter-spacing="-0.5">1</text>
+<text x="241.5" y="136" font-size="12" font-weight="500" fill="#6e6e73" text-anchor="start" letter-spacing="0">stars</text>
+</svg>

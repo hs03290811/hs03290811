@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="384" viewBox="0 0 830 384">
+<style>text{font-family:-apple-system, "SF Pro Display", "SF Pro Text", "Helvetica Neue", "Apple SD Gothic Neo", "Segoe UI", "Malgun Gothic", Arial, sans-serif;}</style>
+<text x="0" y="20" font-size="13" font-weight="500" fill="#a1a1a6" text-anchor="start" letter-spacing="0">Playing</text>
+<text x="4" y="71" font-size="14" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">1</text>
+<text x="40" y="71" font-size="17" font-weight="500" fill="#f5f5f7" text-anchor="start" letter-spacing="0">Nell</text>
+<text x="826" y="71" font-size="13" font-weight="400" fill="#a1a1a6" text-anchor="end" letter-spacing="0">band</text>
+<line x1="40" y1="88" x2="830" y2="88" stroke="rgba(255,255,255,0.16)"/>
+<text x="4" y="119" font-size="14" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">2</text>
+<text x="40" y="119" font-size="17" font-weight="500" fill="#f5f5f7" text-anchor="start" letter-spacing="0">Radiohead</text>
+<text x="826" y="119" font-size="13" font-weight="400" fill="#a1a1a6" text-anchor="end" letter-spacing="0">band</text>
+<line x1="40" y1="136" x2="830" y2="136" stroke="rgba(255,255,255,0.16)"/>
+<text x="4" y="167" font-size="14" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">3</text>
+<text x="40" y="167" font-size="17" font-weight="500" fill="#f5f5f7" text-anchor="start" letter-spacing="0">Nirvana</text>
+<text x="826" y="167" font-size="13" font-weight="400" fill="#a1a1a6" text-anchor="end" letter-spacing="0">band</text>
+<line x1="40" y1="184" x2="830" y2="184" stroke="rgba(255,255,255,0.16)"/>
+<text x="4" y="215" font-size="14" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">4</text>
+<text x="40" y="215" font-size="17" font-weight="500" fill="#f5f5f7" text-anchor="start" letter-spacing="0">Oasis</text>
+<text x="826" y="215" font-size="13" font-weight="400" fill="#a1a1a6" text-anchor="end" letter-spacing="0">band</text>
+<line x1="40" y1="232" x2="830" y2="232" stroke="rgba(255,255,255,0.16)"/>
+<text x="4" y="263" font-size="14" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">5</text>
+<text x="40" y="263" font-size="17" font-weight="500" fill="#f5f5f7" text-anchor="start" letter-spacing="0">Green Day</text>
+<text x="826" y="263" font-size="13" font-weight="400" fill="#a1a1a6" text-anchor="end" letter-spacing="0">band</text>
+<line x1="40" y1="280" x2="830" y2="280" stroke="rgba(255,255,255,0.16)"/>
+<text x="4" y="311" font-size="14" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">6</text>
+<text x="40" y="311" font-size="17" font-weight="500" fill="#f5f5f7" text-anchor="start" letter-spacing="0">SHINee</text>
+<text x="826" y="311" font-size="13" font-weight="400" fill="#a1a1a6" text-anchor="end" letter-spacing="0">group</text>
+<line x1="40" y1="328" x2="830" y2="328" stroke="rgba(255,255,255,0.16)"/>
+<text x="4" y="359" font-size="14" font-weight="400" fill="#a1a1a6" text-anchor="start" letter-spacing="0">7</text>
+<text x="40" y="359" font-size="17" font-weight="500" fill="#f5f5f7" text-anchor="start" letter-spacing="0">G-Dragon</text>
+<text x="826" y="359" font-size="13" font-weight="400" fill="#a1a1a6" text-anchor="end" letter-spacing="0">solo</text>
+</svg>

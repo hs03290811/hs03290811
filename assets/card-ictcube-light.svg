@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="407" height="160" viewBox="0 0 407 160">
+<style>text{font-family:-apple-system, "SF Pro Display", "SF Pro Text", "Helvetica Neue", "Apple SD Gothic Neo", "Segoe UI", "Malgun Gothic", Arial, sans-serif;}</style>
+<rect x="0.5" y="0.5" width="406" height="159" rx="18" fill="rgba(0,0,0,0.035)" stroke="rgba(0,0,0,0.13)"/>
+<text x="28" y="46" font-size="20" font-weight="600" fill="#1d1d1f" text-anchor="start" letter-spacing="-0.3">ICT-CUBE FE</text>
+<text x="28" y="76" font-size="14" font-weight="400" fill="#6e6e73" text-anchor="start" letter-spacing="0">비공개 프로젝트의 프론트엔드</text>
+<text x="28" y="132" font-size="12" font-weight="500" fill="#6e6e73" text-anchor="start" letter-spacing="0">2 commits · 2 PRs · private</text>
+</svg>
